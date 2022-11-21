@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+table, th, td {
+  border: 2px solid;
+  padding: 10px;
+  margin: 0px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 940px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+th {
+  text-decoration: underline;
+}
+
+.navHome {
+  margin-left: 20px;
+  float: left;
+  font-size: xx-large;
+}
+
+.startpagegrid {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-auto-rows: 150px;
+  grid-template-columns: 300px 300px 300px;
+  grid-auto-flow: row;
+  gap: 20px;
+}
+
+.startpagegriditem {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  border: 2px solid white;
+  border-radius: 10px;
+  vertical-align: middle;
+  line-height: 150px;
+}
+
+.startpagegriditem:active {
+  background-color: white;
+}
+
+.keyboardcontainer {
+  margin-top: 55px;
+  margin-bottom: 55px;
+  width: 945px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-auto-rows: 75px;
+  grid-template-columns: 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+  grid-auto-flow: row;
+  gap: 12px;
+}
+
+.keyboardkey {
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  border: 2px solid white;
+  border-radius: 10px;
+  vertical-align: middle;
+  line-height: 75px;
+}
+
+.keyboardkey:active {
+  background-color: white;
+}
+
+.spacekey {
+  grid-column-start: 4;
+  grid-column-end: 8;
+}
+
+.deletekey {
+  grid-column-start: 10;
+  grid-column-end: 12;
+}
+
+.selectUserFormItem {
+  width: 945px;
+  height:75px;
+  border: 2px solid white;
+  border-radius: 10px;
+  background-color: #ea0a8e;
+  color: white;
+  font-weight: bold;
+  font-size: x-large;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  line-height: 75px;
+}
+
